@@ -4,7 +4,8 @@
   "description": "Milestone data retrieval from Taiga API to docx Edit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "list-projects": "node ./scripts/list-projects.js",
+    "list-milestones": "node ./scripts/list-milestones.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,17 @@
   "bugs": {
     "url": "https://github.com/jasonnathan/us-word/issues"
   },
-  "homepage": "https://github.com/jasonnathan/us-word#readme"
+  "homepage": "https://github.com/jasonnathan/us-word#readme",
+  "dependencies": {
+    "datejs": "^1.0.0-rc3",
+    "docxtemplater": "^3.0.5",
+    "jszip": "^2.6.1",
+    "node-fetch": "^1.6.3",
+    "ramda": "^0.23.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-latest": "^6.22.0"
+  }
 }
