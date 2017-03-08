@@ -1,0 +1,9 @@
+{
+  "username": "TAIGA USERNAME OR EMAIL",
+  "password": "TAIGA PASSWORD",
+  "endpoint": "https://api.taiga.io/api/v1",
+  "projectID": "run `npm list-projects` for a list of IDs",
+  "milestoneID": "run `npm list-milestones` for a list of IDs",
+  "templatePath": "./templates/default.docx",
+  "outputPath": "./build"
+}
